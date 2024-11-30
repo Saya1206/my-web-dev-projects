@@ -1,0 +1,56 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: "Lucida Sans", sans-serif;
+}
+
+header {
+  text-align: center;
+}
+
+img {
+  height: 250px;
+  margin-top: 50px;
+}
+
+.first {
+  text-align: center;
+}
+
+.tribute {
+  width: 50%;
+  height: 100px;
+  margin: auto;
+  padding: 5px;
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px white;
+}
+
+.quote {
+  font-size: 24px;
+  text-align: center;
+  font-family: fantasy;
+}
+
+.info {
+  width: 50%;
+  margin: auto;
+  margin-top: 35px;
+}
+
+.main {
+  font-size: 30px;
+}
+
+.role {
+  width: 50%;
+  margin: auto;
+  margin-top: 35px;
+}
+
+.role ul li{
+    padding: 5px;
+}
