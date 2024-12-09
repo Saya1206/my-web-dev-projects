@@ -1,0 +1,49 @@
+body {
+  background-color: aliceblue;
+  font-weight: bold;
+}
+
+main {
+  max-width: 500px;
+  margin: auto;
+  padding: 20px; 
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 4px 4px 5px gray;
+}
+
+h1 {
+  text-align: center;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 4px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+input[type="checkbox"] {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  margin-right: 5px;
+}
+
+button {
+  width: 95%;
+  padding: 7px;
+  border: 1px solid gray;
+  border-radius: 4px;
+  background-color: rgb(97, 143, 97);
+  color: white;
+}
+
+button:hover{
+    background-color: green;
+}
