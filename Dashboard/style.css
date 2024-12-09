@@ -1,0 +1,24 @@
+.sidebar {
+  background-color: rgb(62, 61, 61);
+  color: white;
+  width: 250px;
+  height: 100vh;
+  padding-top: 20px;
+  position: fixed;
+}
+
+.sidebar a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+}
+
+.sidebar a:hover {
+  background-color: cadetblue;
+}
+
+.content {
+  margin-left: 250px;
+  padding: 20px;
+}
