@@ -1,0 +1,42 @@
+body {
+  background-color: rgb(170, 213, 238);
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  max-width: 650px;
+  margin: auto;
+}
+
+.form-group {
+  margin-top: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-top: 10px;
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 9px;
+  width: 100%;
+  border: 1px solid gray;
+  border-radius: 4px;
+}
+
+.form-group input[type="radio"] {
+  width: auto;
+  margin-right: 5px;
+}
+
+.form-group button {
+  width: 100%;
+  background-color: rgb(82, 128, 82);
+  padding: 10px;
+  color: white;
+  border: 1px solid grey;
+}

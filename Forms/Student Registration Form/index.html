@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Student Registration Form</h1>
+
+        <hr style="border: 1px solid white;">
+
+        <div class="form-group">
+            <label for="fname">Firstname:</label>
+            <input type="text" name="fname" id="fname" placeholder="Firstname">
+        </div>
+
+        <div class="form-group">
+            <label for="mname">Middlename:</label>
+            <input type="text" name="mname" id="mname" placeholder="Middlename">
+        </div>
+
+        <div class="form-group">
+            <label for="lname">Lastname:</label>
+            <input type="text" name="lname" id="lname" placeholder="Lastname">
+        </div>
+
+        <div class="form-group">
+            <label for="course">Course:</label>
+            <select name="course" id="course">
+                <option value="">Course</option>
+                <option value="">CSE</option>
+                <option value="">DS</option>
+                <option value="">AIML</option>
+                <option value="">ENTC</option>
+                <option value="">CIVIL</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="gender">Gender:</label>
+            <input type="radio" name="gender" id="male">Male
+            <input type="radio" name="gender" id="female">Female
+            <input type="radio" name="gender" id="other">Other
+        </div>
+
+        <div class="form-group">
+            <label for="phone">Phone:</label>
+            <input type="tel" name="phone" id="phone" placeholder="phone no.">
+        </div>
+
+        <div class="form-group">
+            <label for="address">Current Address:</label>
+            <textarea name="address" id="" cols="30" rows="10" placeholder="Current Address"></textarea>
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Enter Email">
+        </div>
+
+        <div class="form-group">
+            <label for="pass">Password</label>
+            <input type="password" name="pass" id="pass" placeholder="Enter Password">
+        </div>
+
+        <div class="form-group">
+            <label for="pass2">Re-type Password</label>
+            <input type="password" name="pass2" id="pass2" placeholder="Retype Password">
+        </div>
+
+        <div class="form-group">
+            <button type="submit">Register</button>
+        </div>
+    </div>
+</body>
+
+</html>
