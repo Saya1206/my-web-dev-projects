@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+}
+
+h1 {
+  background-color: gray;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+#left {
+  background-color: lightblue;
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  margin-top: 0;
+}
+
+#left a {
+  text-decoration: none;
+  display: block;
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+}
+
+#left a:hover {
+  background-color: skyblue;
+}
+
+#right {
+  margin-left: 250px;
+  padding: 30px;
+}
+
+#right h2 {
+  color: lightblue;
+  margin-top: 20px;
+  padding-bottom: 15px;
+}
+
+#right p {
+  padding-top: 5px;
+  padding-bottom: 40px;
+  border-bottom: 2px solid #eee;
+}
+
+
